@@ -14,8 +14,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
-          registry-url: 'https://npm.pkg.github.com'
-          scope: '@78wesley'
+          registry-url: 'https://registry.npmjs.org'
       - run: npm install
       - run: npm publish
         env:
