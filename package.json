@@ -1,8 +1,11 @@
 {
-  "name": "node-red-contrib-3cx-xapi",
+  "name": "@78wesley/red-contrib-3cx-xapi",
   "version": "1.0.0",
   "description": "Node-RED node for 3cx-xapi",
   "main": "node.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@78wesley"
+  },
   "scripts": {
     "test": "mocha \"test/**/*_spec.js\" --timeout 3000"
   },
@@ -28,6 +31,14 @@
     "node-red": "2.2.2",
     "node-red-node-test-helper": "0.2.7"
   },
-  "author": "",
-  "license": "Apache-2.0"
+  "author": "78wesley",
+  "license": "Apache-2.0",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node-red-3cx-xapi"
+  }
 }
