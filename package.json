@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Node-RED node for 3cx-xapi",
   "main": "node.js",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@78wesley"
-  },
   "scripts": {
     "test": "mocha \"test/**/*_spec.js\" --timeout 3000"
   },
