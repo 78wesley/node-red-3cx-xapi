@@ -1,17 +1,17 @@
-node-red-contrib-xapi
+node-red-contrib-node-red-contrib-3cx-xapi
 ================
 
-Node-RED node for xapi
+Node-RED node for node-red-contrib-3cx-xapi
 
 This OData service is located at /xapi/v1
 
 ## Install
 
 To install the stable version use the `Menu - Manage palette - Install` 
-option and search for node-red-contrib-xapi, or run the following 
+option and search for node-red-contrib-node-red-contrib-3cx-xapi, or run the following 
 command in your Node-RED user directory, typically `~/.node-red`
 
-    npm install node-red-contrib-xapi
+    npm install node-red-contrib-node-red-contrib-3cx-xapi
 
 ## Usage
 

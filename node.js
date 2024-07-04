@@ -22705,7 +22705,7 @@ module.exports = function (RED) {
         });
     }
 
-    RED.nodes.registerType('xapi', XapiNode);
+    RED.nodes.registerType('node-red-contrib-3cx-xapi', XapiNode);
     function XapiServiceNode(n) {
         RED.nodes.createNode(this, n);
         this.host = n.host;
@@ -22715,7 +22715,7 @@ module.exports = function (RED) {
         this.secureTokenIsQuery = n.secureTokenIsQuery;
     }
 
-    RED.nodes.registerType('xapi-service', XapiServiceNode, {
+    RED.nodes.registerType('node-red-contrib-3cx-xapi-service', XapiServiceNode, {
         credentials: {
             secureTokenValue: { type: 'password' },
             temp: { type: 'text' }

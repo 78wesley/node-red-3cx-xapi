@@ -1,9 +1,9 @@
 <script type="text/javascript">
-    RED.nodes.registerType('xapi', {
+    RED.nodes.registerType('node-red-contrib-3cx-xapi', {
         category: 'function',
         color: '#89bf04',
         defaults: {
-            service: { value: "", type: "xapi-service", required: true },
+            service: { value: "", type: "node-red-contrib-3cx-xapi-service", required: true },
             method: { value: "", required: true },
             ListActiveCall_top: { value: "" },
             ListActiveCall_topType: { value: "str" },
@@ -3639,7 +3639,7 @@
         outputs: 1,
         icon: 'icon.png',
         label: function () {
-            return this.name || this.method || "xapi";
+            return this.name || this.method || "node-red-contrib-3cx-xapi";
         },
         labelStyle: function() {
             return this.name?"node_label_italic":"";
@@ -27497,7 +27497,7 @@
     });
 </script>
 
-<script type="text/html" data-template-name="xapi">
+<script type="text/html" data-template-name="node-red-contrib-3cx-xapi">
     <div class="form-row">
         <label for="node-input-service"><i class="fa fa-cloud"></i> <span data-i18n="Xapi.label.service"></span></label>
         <input type="text" id="node-input-service">
@@ -40716,7 +40716,7 @@
     </div>
 </script>
 
-<script type="text/html" data-help-name="xapi">
+<script type="text/html" data-help-name="node-red-contrib-3cx-xapi">
 
     <p>This OData service is located at /xapi/v1</p>
     <p><b>Methods</b></p>
@@ -44532,7 +44532,7 @@
         </dl>
 </script>
 <script type="text/javascript">
-    RED.nodes.registerType('xapi-service', {
+    RED.nodes.registerType('node-red-contrib-3cx-xapi-service', {
         category: 'config',
         defaults: {
             host: { value: "", required: true },
@@ -44568,7 +44568,7 @@
     });
 </script>
 
-<script type="text/html" data-template-name="xapi-service">
+<script type="text/html" data-template-name="node-red-contrib-3cx-xapi-service">
     <div class="form-row">
         <label for="node-config-input-host"><i class="fa fa-globe"></i> <span data-i18n="Xapi.label.host"></span></label>
         <input type="text" id="node-config-input-host" placeholder="http://localhost:1880">
@@ -44581,7 +44581,7 @@
     </div>
 </script>
 
-<script type="text/html" data-help-name="xapi-service">
+<script type="text/html" data-help-name="node-red-contrib-3cx-xapi-service">
     <p><b>Host</b>: URL to connect</p>
 
     <p><b>Header</b>: Variable name to set token</p>
