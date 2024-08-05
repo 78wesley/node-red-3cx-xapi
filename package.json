@@ -1,5 +1,5 @@
 {
-  "name": "@78wesley/red-contrib-3cx-xapi",
+  "name": "@78wesley/node-red-contrib-3cx-xapi",
   "version": "1.0.0",
   "description": "Node-RED node for 3cx-xapi",
   "main": "node.js",
