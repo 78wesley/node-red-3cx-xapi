@@ -39,6 +39,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "node-red-3cx-xapi"
+    "url": "node-red-contrib-3cx-xapi"
   }
 }
