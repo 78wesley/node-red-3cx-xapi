@@ -1,6 +1,6 @@
 {
   "name": "@78wesley/node-red-contrib-3cx-xapi",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Node-RED node for 3cx-xapi",
   "main": "node.js",
   "publishConfig": {
